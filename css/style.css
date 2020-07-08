@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=poppins');
+*{
+	margin: 0;
+	padding: 0;
+	user-select:none;
+	color: #fff;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+}
+.sidebar{
+	position: fixed;
+	width: 400px;
+	height: 100%;
+	left: 0;
+	background:#1b1b1b;
+}
+.sidebar .text{
+	font-size: 25px;
+	color: #fff;
+	font-weight: 600;
+	line-height: 65px;
+	text-align: center;
+	background:#1e1e1e;
+	letter-spacing: 1px;
+}
+nav ul{
+	background:#1b1b1b;
+	height: 100%;
+	width: 100%;
+	list-style: none;
+}
+nav ul li{
+	line-height: 60px;
+	border-bottom: 1px solid rgb(255,255,255,0.1);
+	list-style: none;
+}
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
