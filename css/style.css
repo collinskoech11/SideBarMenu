@@ -7,12 +7,40 @@
 	box-sizing: border-box;
 	font-family: 'poppins',sans-serif;
 }
+.btn{
+	position: absolute;
+	top: 15px;
+	left: 45px;
+	height: 45px;
+	width:45px;
+	background:#1b1b1b;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: left 0.4s ease;
+	text-align: center;
+	align-items: center;
+}
+.btn span{
+	color: #fff;
+	font-size: 28px;
+	line-height: 45px;
+}
+.btn.click span:before{
+	content:'\f00d';
+}
+.btn.click{
+	left:260px;
+}
 .sidebar{
 	position: fixed;
 	width: 250px;
 	height: 100%;
 	left: -250px;
 	background:#1b1b1b;
+	transition: left 0.4s ease;
+}
+.sidebar.show{
+	left:0;
 }
 .sidebar .text{
 	font-size: 25px;
